@@ -1,5 +1,15 @@
 /* .btn {} */
 
+.mydivider {
+    width: 134px;
+    height: 4px;
+    left: 25px;
+    top: 152px;
+
+    /* Gradient */
+    background: linear-gradient(90.05deg, #2E89DC -26.13%, #4361EE 30.71%, #FB6F92 102.5%);
+}
+
 /* About */
 .about {
     padding-left: 101px
@@ -9,7 +19,6 @@
     width: 801px;
     height: 214px;
 
-    /* Заголовок H1 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -21,11 +30,26 @@
     color: #454444;
 }
 
+.title-h2 {
+    width: 725px;
+    height: 62px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    /* or 62px */
+
+    text-transform: uppercase;
+
+    color: #454444;
+}
+
 .title-h3 {
     width: 533px;
     height: 45px;
 
-    /* Заголовок H3 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -33,7 +57,6 @@
     line-height: 130%;
     /* or 45px */
 
-    /* Main Color */
     color: #454444;
 }
 
@@ -62,6 +85,10 @@
     -moz-text-fill-color: transparent;
 }
 
+/* Cultural Events */
+.mainPageCulturalEvents {
+    padding-left: 101px
+}
 
 /* Footer */
 .box-footer {
