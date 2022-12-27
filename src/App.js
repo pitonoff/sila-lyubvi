@@ -1,12 +1,12 @@
 import Footer from "./global/Footer";
 import Topbar from "./global/TopBar";
-import './styles.css';
+import './styles.module.css';
 
 function App() {
   return (
     <div className="app">
       <Topbar/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

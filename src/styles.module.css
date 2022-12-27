@@ -1,6 +1,13 @@
-/* .btn {} */
+@import "index.css";
 
-
+.btn {
+    background: var(--gradient-primary);
+    border-radius: 30px;
+    color: var(--button-text-white);
+    border: none;
+    width: 114px;
+    height: 45px;
+}
 
 
 /* Footer */
@@ -24,5 +31,4 @@
     font-size: 14px; 
     margin-top: 5px;   
 }
-
 

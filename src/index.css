@@ -10,3 +10,11 @@ body,
   margin: 0;
 }
 
+:root {
+  --blue-light-custom: #2E89DC;
+  --blue-dark-custom: #4361EE;
+  --tomato-custom: #FB6F92;
+  --button-text-white: #F2F2F2;
+  --gradient-primary: linear-gradient(90.05deg, var(--blue-light-custom) -26.13%, var(--blue-dark-custom) 30.71%, var(--tomato-custom) 102.5%);
+}
+
