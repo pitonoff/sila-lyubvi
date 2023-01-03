@@ -1,12 +1,17 @@
+import About from "./global/About";
+import CulturalEvents from "./global/CulturalEvents";
 import Footer from "./global/Footer";
 import Topbar from "./global/TopBar";
 import './styles.module.css';
+
 
 function App() {
   return (
     <div className="app">
       <Topbar/>
-      {/* <Footer/> */}
+      <About/>
+      <CulturalEvents/>
+      <Footer/>
     </div>
   );
 }
