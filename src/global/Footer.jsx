@@ -5,7 +5,7 @@ import { YouTube, Telegram } from '@mui/icons-material';
 
 const Footer = () => {
     const linkStyle = {
-        underline: "none", target: "_blank", rel: "noopener"
+        underline: "none", target: "_blank", rel: "noopener noreferrer"
     };
 
 

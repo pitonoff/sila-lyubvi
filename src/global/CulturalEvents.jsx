@@ -49,7 +49,6 @@ const CulturalEvents = () => {
                     prevArrow={<SamplePrevArrow />}
                 >
                     <EventCard />
-
                     <EventCard />
                     <EventCard />
                     <EventCard />

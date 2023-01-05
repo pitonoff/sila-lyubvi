@@ -25,7 +25,7 @@ const About = () => {
                             width: '204px',
                             height: '61px',
 
-                            background: 'linear-gradient(90.05deg, #2E89DC -26.13%, #4361EE 30.71%, #FB6F92 102.5%)',
+                            background: 'var(--gradient-primary)',
                             borderRadius: '30px',
                             color: '#F2F2F2',
                             fontFamily: 'Inter',
