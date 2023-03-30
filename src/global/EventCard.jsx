@@ -10,7 +10,7 @@ export default function EventCard() {
   return (
     <div className='card' style={{
       maxHeight:'640px',
-      maxWwidth: '670px',
+      maxWidth: '670px',
       margin: '10px'
     }}>
       <Card 
